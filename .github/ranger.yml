@@ -1,0 +1,4 @@
+labels:
+  duplicate: 
+    delay: 10s
+    comment: "$LABEL issue created! Closing in $CLOSE_TIME . . ."

@@ -1,4 +1,0 @@
-labelConfig:
-  duplicate: 
-    delayTime: 15s
-    comment: "Duplicate Issue create! Closing in $CLOSE_TIME . . ."
