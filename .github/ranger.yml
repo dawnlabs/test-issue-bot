@@ -1,4 +1,5 @@
 labels:
+  'merge when passing': merge
   duplicate: 
     action: close
     delay: 10s
