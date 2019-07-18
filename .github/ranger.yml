@@ -1,17 +1,6 @@
+extends: reporanger/superpowers
 labels:
-  'merge when passing': merge
-  duplicate: 
-    action: close
-    delay: 5s
-    comment: "$LABEL issue created! Closing in $DELAY..."
   feature:
     action: close
     delay: 0s
     comment: "We use GitHub issues for tracking bugs — for new features, checkout [our roadmap](https://roadmap.reporanger.com) to see which new features we are building, vote for your favorites, or add your own!"
-
-comments:
-  - action: label
-    # either a string or a string representation of a regular expresssion
-    pattern: /duplicate of/i
-    labels: 
-      - duplicate
