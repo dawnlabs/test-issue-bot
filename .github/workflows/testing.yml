@@ -2,8 +2,11 @@ name: Node CI
 
 on: [push]
 
-jobs:
-  build:
+jobs: 
+  build: 
     runs-on: ubuntu-latest
-    steps:
-    - uses: echo success
+    steps: 
+      - 
+        name: test
+        run: "echo success"
+
