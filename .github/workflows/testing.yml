@@ -6,7 +6,6 @@ jobs:
   build: 
     runs-on: ubuntu-latest
     steps: 
-      - 
-        name: test
-        run: "echo success"
+      - name: test
+        run: "sleep 5 && echo success"
 
