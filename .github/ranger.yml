@@ -4,3 +4,7 @@ labels:
     action: close
     delay: 0s
     comment: "We use GitHub issues for tracking bugs — for new features, checkout [our roadmap](https://roadmap.reporanger.com) to see which new features we are building, vote for your favorites, or add your own!"
+  contributor: 
+    action: comment
+    delay: 0s
+    message: "@all-contributors add @$AUTHOR for code"
