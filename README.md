@@ -1,6 +1,2 @@
 ### Test Issue Bot
 
-
-
-
-
